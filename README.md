@@ -1,3 +1,14 @@
+## Setting up CONDA Environment
+
+conda create -n style-transfer python=3
+conda activate style-transfer
+conda install tensorflow scipy pillow
+pip install moviepy
+
+python -c "import imageio; imageio.plugins.ffmpeg.download()"
+OR
+pip install imageio-ffmpeg
+
 ## Transferring styles
 
 1) Download the Zip archive from the [fast-style-transfer](https://github.com/lengstrom/fast-style-transfer) repository and extract it. You can download it by clicking on the bright green button on the right.[]
@@ -6,7 +17,8 @@
 4) Enter the Conda environment you created above, if you aren't still in it.
 5) Finally, in your terminal, navigate to the fast-style-transfer folder and enter
 
-python evaluate.py --checkpoint ./rain_princess.ckpt --in-path ./input.jpg --out-path ./output_image.jpg
+python evaluate.py --checkpoint ./rain_princess.ckpt --in-path ./input.jpg --out-path ./output_image.jpg.
+
 Refer HOWTO.txt for all execution commands.
 
 
