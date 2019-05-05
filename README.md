@@ -5,8 +5,9 @@
 3) Copy the image you want to style into the fast-style-transfer folder.
 4) Enter the Conda environment you created above, if you aren't still in it.
 5) Finally, in your terminal, navigate to the fast-style-transfer folder and enter
-python evaluate.py --checkpoint ./rain_princess.ckpt --in-path ./input.jpg --out-path ./output_image.jpg
 
+python evaluate.py --checkpoint ./rain_princess.ckpt --in-path ./input.jpg --out-path ./output_image.jpg
+Refer HOWTO.txt for all execution commands.
 
 
 ## Fast Style Transfer in [TensorFlow](https://github.com/tensorflow/tensorflow)
