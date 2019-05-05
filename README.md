@@ -1,3 +1,13 @@
+## Transferring styles
+
+1) Download the Zip archive from the [fast-style-transfer](https://github.com/lengstrom/fast-style-transfer) repository and extract it. You can download it by clicking on the bright green button on the right.[]
+2) Download the Rain Princess checkpoint from here. Put it in the fast-style-transfer folder. A checkpoint file is a model that already has tuned parameters. By using this checkpoint file, we won't need to train the model and can get straight to applying it.
+3) Copy the image you want to style into the fast-style-transfer folder.
+4) Enter the Conda environment you created above, if you aren't still in it.
+5) Finally, in your terminal, navigate to the fast-style-transfer folder and enter
+
+
+
 ## Fast Style Transfer in [TensorFlow](https://github.com/tensorflow/tensorflow)
 
 Add styles from famous paintings to any photo in a fraction of a second! [You can even style videos!](#video-stylization)
