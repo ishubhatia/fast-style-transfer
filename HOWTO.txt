@@ -1,0 +1,5 @@
+python evaluate.py --checkpoint ./rain_princess.ckpt --in-path ./img1.jpg --out-path ./out_rain.jpg
+python evaluate.py --checkpoint ./scream.ckpt --in-path ./img1.jpg --out-path ./out_scream.jpg
+python evaluate.py --checkpoint ./udnie.ckpt --in-path ./img1.jpg --out-path ./out_udnie.jpg
+python evaluate.py --checkpoint ./wave.ckpt --in-path ./img1.jpg --out-path ./out_wave.jpg
+python evaluate.py --checkpoint ./wreck.ckpt --in-path ./img1.jpg --out-path ./out_wreck.jpg
