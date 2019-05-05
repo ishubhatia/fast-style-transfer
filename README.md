@@ -1,8 +1,11 @@
 ## Setting up CONDA Environment
 
 conda create -n style-transfer python=3
+
 conda activate style-transfer
+
 conda install tensorflow scipy pillow
+
 pip install moviepy
 
 python -c "import imageio; imageio.plugins.ffmpeg.download()"
